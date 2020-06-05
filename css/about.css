@@ -93,93 +93,48 @@ header nav a{
 }
 #jumbo{
     width: 100%;
-    margin: 4% 0;
+    margin: 4% 0 0;
 }
-
-.top-content {
+/* End Header */
+.first{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
+    flex-direction: column;
     border-bottom: 1px dashed black;
+    padding: 3%;
 }
+.second{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    padding: 3%;
 
-.top-content .text-container {
+}
+.picture-text{
+    display: flex;
+    flex-direction: column;
     width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
-
-.middle-content {
-    margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+.picture-text img{
+    margin: 5% 0;
 }
-
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.picture-text button{
+    margin: 5% 0;
+    padding: 2% 3%;
+    width: 30%;
+    background: white;
+    border-radius: 8px;
+    border-color: black;
 }
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
+.picture-text button:hover{
+    background: black;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
-#box-one{
-    background-color: teal;
+.third{
+    padding: 3%;
+    margin-bottom: 3%;
 }
-#box-two{
-    background-color: gold;
-}
-#box-three{
-    background-color: cadetblue;
-}
-#box-four{
-    background-color: coral;
-}
-#box-five{
-    background-color: crimson;
-}
-#box-six{
-    background-color: forestgreen;
-}
-#box-seven{
-    background-color: darkorchid;
-}
-#box-eight{
-    background-color: hotpink;
-}
-#box-nine{
-    background-color: indigo;
-}
-#box-ten{
-    background-color: dodgerblue;
-}
-
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
-
+/* End Main */
 footer {
     width: 100%;
     background: black;
